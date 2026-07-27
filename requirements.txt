@@ -2,8 +2,5 @@ streamlit
 pandas
 numpy
 scikit-learn
-joblib
 matplotlib
 dython
-pickle
-os
