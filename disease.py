@@ -15,7 +15,7 @@ DATA_DIR = os.path.join(BASE_DIR, "diseasepredictiondataset")
 df_main=pd.read_csv(os.path.join(DATA_DIR, "dataset.csv"))
 df_description=pd.read_csv(os.path.join(DATA_DIR, "symptom_Description.csv"))
 df_precaution=pd.read_csv(os.path.join(DATA_DIR, "symptom_precaution.csv"))
-df_severity=pd.read_csv(os.path.join(DATA_DIR, "symptom-severity.csv"))
+df_severity=pd.read_csv(os.path.join(DATA_DIR, "Symptom-severity.csv"))
 
 #studying the dataset
 df_main.head()
